@@ -23,7 +23,7 @@ These callouts send information out from Concur to an application connector that
  
 The Launch External URL callout gives clients and developers a platform to extend the functionality of Concur, providing a means to deliver custom user interactions, or access functionality found in an external system.
   
-The client can arrange to add an Expense Entry form field that is configured to use the Launch External URL callout to a Concur Expense Entry form.&nbsp;Concur Expense will display this field with an attached button that launches a separate window when clicked. The window is controlled by an application connector, created by the client, a third party developer, or Concur. The application connector is a web server that presents information in the window.
+The client can arrange to add an Expense Entry form field that is configured to use the Launch External URL callout to a Concur Expense Entry form.&nbsp;Concur Expense will display this field with an attached button that launches a separate window when clicked. The window is controlled by an application connector, created by the client or a third party developer. The application connector is a web server that presents information in the window.
   
 The application connector can access Concur data through the web services, or can access data in an external system. Once the user has completed their actions in the window (such as performing a search or completing a wizard), he/she clicks a button such as "Done" that indicates he/she has concluded their work in the window. &nbsp;The application connector then closes the window.&nbsp;
   
