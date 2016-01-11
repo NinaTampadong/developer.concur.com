@@ -10,7 +10,7 @@ This callout differs from the standard Concur web services in the following ways
 
 * It uses an **outbound** **callout** where Expense calls a public facing URL provided by the application connector, which is a web server hosted by the third-party developer or client. Refer to [Callouts and Application Connectors for more information](/api-reference/callouts/index.html).
 * The application connector can also use the web services to retrieve or send Concur data.
-* The developer or client can configure and maintain the public web service interface (the application connector), or the connector can be maintained by Concur. This guide specifies the request and response format required by Concur.
+* The developer or client can configure and maintain the public web service interface (the application connector). This guide specifies the request and response format required by Concur.
 * Concur provides a sample connector application that the developer or client can install on their network and customize to interface with their system of record. Concur can also customize the connector.
 * The developer or client can choose to create their own application connector using a different language, such as PHP, if preferred.
 
